@@ -10,7 +10,7 @@ machine:
     GOPATH_HEAD: "$(echo $GOPATH | cut -d ':' -f 1)"
     GOPATH_BASE: "$GOPATH_HEAD/src/github.com/$CIRCLE_PROJECT_USERNAME"
     GO15VENDOREXPERIMENT: 1
-    DOCKER_REPO: invoicer-chapter2
+    DOCKER_REPO: fadedconsole
 
   services:
     - docker
